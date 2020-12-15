@@ -19,9 +19,9 @@ def populate(pull: str = AnyStr, user_type: str = "atlassian") -> Any:
     You can customize it to determine which user you're looking for.
     >> The below method here displays active or inactive users, so you'll be getting all users
     :param: pull (options)
-            -> Both: pulls out inactive and active users
+            -> both: pulls out inactive and active users
             -> active: pulls out only active users
-            -> inactive: pulls out
+            -> inactive: pulls out inactive users
     :param: user_type (options)
             -> atlassian: a normal Jira Cloud user
             -> customer: this will be your JSM customers

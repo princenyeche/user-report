@@ -20,7 +20,7 @@ if __name__ == '__main__':
     :param: pull (options)
             -> both: pulls out inactive and active users
             -> active: pulls out only active users
-            -> inactive: pulls out
+            -> inactive: pulls out inactive users
     :param: user_type (options)
             -> atlassian: a normal Jira Cloud user
             -> customer: this will be your JSM customers

@@ -18,7 +18,7 @@ if __name__ == '__main__':
     """
 >> The below method here displays active or inactive users, so you'll be getting all users
     :param: pull (options)
-            -> Both: pulls out inactive and active users
+            -> both: pulls out inactive and active users
             -> active: pulls out only active users
             -> inactive: pulls out
     :param: user_type (options)

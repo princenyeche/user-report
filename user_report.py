@@ -29,7 +29,7 @@ def populate(pull: str = AnyStr, user_type: str = "atlassian") -> Any:
             -> unknown: as the name suggest unknown user type probably from oAuth
     """
     count_start_at = 0
-    api = "/rest/api/3/myself".format(count_start_at)
+    api = "/rest/api/3/myself"
     endpoint = "{}{}".format(url, api)
     validate = requests.get(endpoint, auth=auth, headers=headers)
 
